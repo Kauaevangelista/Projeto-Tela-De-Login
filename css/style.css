@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  color: #323232;
+  border: none;
+}
+
+body {
+  background-image: url(https://th.bing.com/th/id/R.92af0951c807a4bac7a03f7c21552d4a?rik=oGdtgdch8F6m7Q&pid=ImgRaw&r=0);
+  background-size: cover;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+a,
+label {
+  font-size: 0.8rem;
+}
+
+a:hover {
+  color: #08558b;
+}
+
+.login-container {
+  background-color: #fff;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  margin-top: 10vh;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form {
+  margin: 30px 0 40px;
+}
+
+label,
+input {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  border-bottom: 2px solid #323232;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+input:focus {
+  border-bottom: 2px solid #08558b;
+  transition: 0.9s;
+  animation-timing-function: ease;
+}
+
+#forgot-pass {
+  text-align: right;
+  display: block;
+}
+
+input[type="submit"] {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 30px;
+  color: #fff;
+  background-color: #08558b;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #1b223c;
+  transition: 0.5s;
+}
+
+.social-container,
+.social-container p {
+  margin-bottom: 20px;
+}
+
+.social-container img {
+  border-radius: 20%;
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.register-container p {
+  margin: 10px;
+}
+
+.register-container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  height: 40px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #08558b;
+  cursor: pointer;
+}
+
+.register-container a:hover {
+  background-color: #1b223c;
+  transition: 0.5s;
+}
+
+@media (max-width: 420px) {
+  .login-container {
+    width: 90%;
+  }
+}
